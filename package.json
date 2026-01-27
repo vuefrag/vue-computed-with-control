@@ -1,7 +1,7 @@
 {
   "name": "vue-computed-with-control",
-  "version": "1.0.6",
-  "description": "Vue 3 computed with manual trigger and dependency control",
+  "version": "1.0.7",
+  "description": "Vue 3 composable utility",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,7 +15,8 @@
   "files": [
     "dist",
     "logo.svg",
-    "banner.svg"
+    "banner.svg",
+    "README.md"
   ],
   "scripts": {
     "build": "unbuild",
@@ -23,24 +24,12 @@
     "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
-    "vue",
-    "vue3",
-    "vue-3",
-    "composable",
-    "composition-api",
-    "vueuse",
-    "reactive",
-    "reactivity",
     "computed",
-    "ref",
-    "state",
-    "with",
     "control",
     "manual",
     "trigger",
     "dependencies",
-    "explicit",
-    "computedWithControl"
+    "explicit"
   ],
   "author": "VueFrag",
   "license": "MIT",

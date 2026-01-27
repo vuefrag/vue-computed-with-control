@@ -1,15 +1,14 @@
 <p align="center">
-  <img src="logo.svg" alt="vue-computed-with-control" width="180" />
+  <img src="banner.svg" alt="vue-computed-with-control" width="100%" />
 </p>
 
 <h1 align="center">vue-computed-with-control</h1>
 
-<p align="center">A Vue 3 composition API utility that lets you explicitly control computed property updates with manual trigger functions and dependency tracking. Provides fine-grained control over when computations re-run.</p>
+<p align="center"></p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-computed-with-control"><img src="https://img.shields.io/npm/v/vue-computed-with-control.svg" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/vue-computed-with-control"><img src="https://img.shields.io/npm/dm/vue-computed-with-control.svg" alt="npm downloads" /></a>
-  <a href="https://github.com/vuefrag/vue-computed-with-control/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-computed-with-control.svg" alt="license" /></a>
 </p>
 
 ## Installation
@@ -19,10 +18,6 @@ npm install vue-computed-with-control
 ```
 
 ## Usage
-
-```ts
-import { computedWithControl } from 'vue-computed-with-control';
-```
 
 Explicitly define the dependencies of computed.
 
@@ -80,8 +75,8 @@ const computedRef = computedWithControl(
 )
 ```
 
-> Extracted from [VueUse](https://vueuse.org/) for standalone use.
-
 ## License
 
 MIT
+
+Extracted from [VueUse](https://vueuse.org/) for standalone use.
