@@ -1,6 +1,6 @@
 {
   "name": "vue-computed-with-control",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Vue 3 computed with manual trigger and dependency control",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "build": "unbuild",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "cp README.npm.md README.md && npm run build",
+    "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
     "vue",

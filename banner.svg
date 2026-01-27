@@ -10,16 +10,16 @@
   <rect width="1280" height="640" fill="url(#banner-bg)"/>
 
   <!-- Decorative elements -->
-  <circle cx="1200" cy="100" r="300" fill="#42b883" opacity="0.05"/>
-  <circle cx="80" cy="540" r="200" fill="#42b883" opacity="0.05"/>
+  <circle cx="200" cy="150" r="120" fill="#42b883" opacity="0.06"/>
+  <circle cx="1150" cy="500" r="100" fill="#42b883" opacity="0.06"/>
 
   <!-- Top accent bar -->
   <rect x="0" y="0" width="1280" height="8" fill="#42b883"/>
 
-  <!-- VueFrag badge -->
+  <!-- Vuefrag badge -->
   <g transform="translate(80, 80)">
     <rect width="140" height="50" rx="8" fill="#42b883"/>
-    <text x="70" y="33" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="white">VueFrag</text>
+    <text x="70" y="33" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="white">Vuefrag</text>
   </g>
 
   <!-- Package name -->
@@ -30,7 +30,7 @@
 
   <!-- Install command -->
   <g transform="translate(80, 420)">
-    <rect width="500" height="60" rx="8" fill="#0f172a"/>
+    <rect width="600" height="60" rx="8" fill="#0f172a"/>
     <text x="20" y="40" font-family="ui-monospace, monospace" font-size="24" fill="#94a3b8">npm install</text>
     <text x="200" y="40" font-family="ui-monospace, monospace" font-size="24" fill="#42b883">vue-computed-with-control</text>
   </g>
@@ -41,12 +41,8 @@
     <text x="86" y="27" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#42b883">Reactivity</text>
   </g>
 
-  <!-- Vue logo hint -->
-  <g transform="translate(1080, 480)">
-    <polygon points="100,20 140,100 60,100" fill="#42b883" opacity="0.3"/>
-    <polygon points="100,40 125,90 75,90" fill="#42b883" opacity="0.5"/>
+  <!-- Category icon (top right corner) -->
+  <g>
+    <circle cx="1080" cy="150" r="60" fill="none" stroke="#42b883" stroke-width="15"/><circle cx="1080" cy="150" r="25" fill="#42b883"/><path d="M1000 150h-20M1160 150h20M1080 70v-20M1080 230v20" stroke="#42b883" stroke-width="10" stroke-linecap="round"/>
   </g>
-
-  <!-- Bottom text -->
-  <text x="1200" y="600" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748b">Standalone VueUse function</text>
 </svg>
