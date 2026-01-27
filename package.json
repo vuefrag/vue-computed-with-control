@@ -1,0 +1,47 @@
+{
+  "name": "vue-computed-with-control",
+  "version": "1.0.0",
+  "description": "Computed with manual control",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "composable",
+    "vueuse",
+    "computedWithControl"
+  ],
+  "author": "VueFrag",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuefrag/vue-computed-with-control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuefrag/vue-computed-with-control/issues"
+  },
+  "homepage": "https://github.com/vuefrag/vue-computed-with-control#readme",
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "devDependencies": {
+    "unbuild": "^2.0.0",
+    "typescript": "^5.0.0",
+    "vue": "^3.4.0"
+  }
+}
