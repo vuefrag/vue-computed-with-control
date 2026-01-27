@@ -1,6 +1,6 @@
 {
   "name": "vue-computed-with-control",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vue 3 computed with manual trigger and dependency control",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",

@@ -9,8 +9,6 @@
   <!-- Background -->
   <rect width="96" height="96" rx="16" fill="url(#bg-grad)"/>
 
-  <!-- Decorative corner accent -->
-  <path d="M96 0v20c0-11.046-8.954-20-20-20H96z" fill="#42b883" opacity="0.12"/>
 
   <!-- Vue badge -->
   <g transform="translate(8, 8)">
