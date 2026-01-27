@@ -12,7 +12,6 @@
   <a href="https://github.com/vuefrag/vue-computed-with-control/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-computed-with-control.svg" alt="license" /></a>
 </p>
 
-> Extracted from [VueUse](https://vueuse.org/) for standalone use.
 
 ## Installation
 
@@ -81,6 +80,9 @@ const computedRef = computedWithControl(
   { deep: true },
 )
 ```
+
+> Extracted from [VueUse](https://vueuse.org/) for standalone use.
+
 
 ## License
 
