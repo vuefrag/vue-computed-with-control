@@ -1,5 +1,5 @@
 import type { ComputedGetter, ComputedRef, MultiWatchSources, WatchOptions, WatchSource, WritableComputedOptions, WritableComputedRef } from 'vue'
-// Inlined types from @vueuse/shared/utils
+// Inlined from @vueuse/shared/utils
 type Fn = () => void
 
 import { customRef, watch } from 'vue'
