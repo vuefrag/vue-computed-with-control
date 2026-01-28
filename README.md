@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="vue-computed-with-control" width="100%" />
+  <img src="https://raw.githubusercontent.com/vuefrag/vue-computed-with-control/main/banner.svg" alt="vue-computed-with-control" width="100%" />
 </p>
 
 <h1 align="center">vue-computed-with-control</h1>
