@@ -1,6 +1,6 @@
 {
   "name": "vue-computed-with-control",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Vue 3 computed with manual trigger and dependency control",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/vuefrag/vue-computed-with-control#readme",
   "peerDependencies": {
-    "vue": ">=3.0.0"
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "unbuild": "^2.0.0",
